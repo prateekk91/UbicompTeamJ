@@ -62,9 +62,9 @@ public class AutoCompleteServlet extends HttpServlet
 			ResultSet rs = statement.executeQuery(query);
 			if (rs.next())
 			{
-				line = Integer.toString(rs.getInt(1));
-				System.out.println("Line=" + line);
+				line = rs.getString(1);
 			}
+			connection.close();
 		} catch (Exception e)
 		{
 			e.printStackTrace();

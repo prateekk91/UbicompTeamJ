@@ -38,44 +38,7 @@ public class MainActivity extends Activity {
         WebView webView = (WebView) findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.clearCache(true);
-        webView.loadUrl("http://192.168.0.22:8080/WebSample/");
-//        mView = buildView();
-//
-//        mCardScroller = new CardScrollView(this);
-//        mCardScroller.setAdapter(new CardScrollAdapter() {
-//            @Override
-//            public int getCount() {
-//                return 1;
-//            }
-//
-//            @Override
-//            public Object getItem(int position) {
-//                return mView;
-//            }
-//
-//            @Override
-//            public View getView(int position, View convertView, ViewGroup parent) {
-//                return mView;
-//            }
-//
-//            @Override
-//            public int getPosition(Object item) {
-//                if (mView.equals(item)) {
-//                    return 0;
-//                }
-//                return AdapterView.INVALID_POSITION;
-//            }
-//        });
-//        // Handle the TAP event.
-//        mCardScroller.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                // Plays disallowed sound to indicate that TAP actions are not supported.
-//                AudioManager am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-//                am.playSoundEffect(Sounds.DISALLOWED);
-//            }
-//        });
-//        setContentView(mCardScroller);
+        webView.loadUrl("http://192.168.0.22:8080/TrainYourself/");
     }
 
     @Override

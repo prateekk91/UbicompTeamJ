@@ -3,7 +3,7 @@ var isIE;
 
 function init() {
     completeField = document.getElementById("complete");
-    var timerID = setInterval("doCompletion()",1000);
+    var timerID = setInterval("doCompletion()",300);
 }
 
 function doCompletion() {
