@@ -9,6 +9,7 @@ function init() {
 function doCompletion() {
         var url = "autocomplete";
         req = initRequest();
+        
         req.open("GET", url, true);
         req.onreadystatechange = callback;
         req.send(null);
@@ -16,19 +17,19 @@ function doCompletion() {
 
 function callback() {
 	if (req.readyState == 4) {
-        if (req.status == 200) {
+		if (req.status == 200) {
         	parseMessages(req.responseXML);
         }
     }
 }
 
 function parseMessages(responseXML) {
-
+	
     // no matches returned
     if (responseXML == null) {
-        return false;
+    	return false;
     } else {
-    	var composers = responseXML.getElementsByTagName("composers")[0].childNodes[0].nodeValue;
+    	var composers = responseXML.getElementsByTagName("feedback")[0].childNodes[0].nodeValue;
     	ReplaceContentInContainer(completeField,composers);
     }
 }

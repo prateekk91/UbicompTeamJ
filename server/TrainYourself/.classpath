@@ -21,5 +21,12 @@
 	<classpathentry kind="lib" path="/j4kdemo/lib/jogl-all.jar"/>
 	<classpathentry kind="lib" path="/j4kdemo/lib/ufdw.jar"/>
 	<classpathentry kind="src" path="/j4kdemo"/>
+	<classpathentry kind="lib" path="F:/Setups/rabbitmq-java-client-bin-3.6.5/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/Setups/rabbitmq-java-client-bin-3.6.5/commons-io-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Setups/rabbitmq-java-client-bin-3.6.5/hamcrest-core.jar"/>
+	<classpathentry kind="lib" path="F:/Setups/rabbitmq-java-client-bin-3.6.5/junit.jar"/>
+	<classpathentry kind="lib" path="F:/Setups/rabbitmq-java-client-bin-3.6.5/rabbitmq-client.jar"/>
+	<classpathentry kind="lib" path="F:/Setups/rabbitmq-java-client-bin-3.6.5/rabbitmq-client-tests.jar"/>
+	<classpathentry kind="lib" path="F:/Setups/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
