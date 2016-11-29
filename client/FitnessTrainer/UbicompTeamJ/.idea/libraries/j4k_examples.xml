@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="j4k-examples">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/j4k/j4k-examples.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

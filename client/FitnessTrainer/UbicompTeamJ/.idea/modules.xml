@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/server/TrainYourself/TrainYourself.iml" filepath="$PROJECT_DIR$/server/TrainYourself/TrainYourself.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/FitnessTrainer/mobile/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/client/FitnessTrainer/mobile/src/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/FitnessTrainer/glass/src/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/client/FitnessTrainer/glass/src/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j4k/j4k.iml" filepath="$PROJECT_DIR$/j4k/j4k.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/FitnessTrainer/mobile/src/main/main.iml" filepath="$PROJECT_DIR$/client/FitnessTrainer/mobile/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/FitnessTrainer/glass/src/main/main1.iml" filepath="$PROJECT_DIR$/client/FitnessTrainer/glass/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/FitnessTrainer/mobile/src/test/test.iml" filepath="$PROJECT_DIR$/client/FitnessTrainer/mobile/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

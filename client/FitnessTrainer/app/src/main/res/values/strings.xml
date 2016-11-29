@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fitness</string>
+    <string name="title_activity_main">MyApplication2</string>
+
+    <string name="exercise1">Shoulder Press</string>
+    <string name="exercise2">Bicep Curl</string>
+
+    <string name="msg_exercise1">Shoulder Press selected</string>
+    <string name="msg_exercise2">Bicep Curl selected</string>
+</resources>
