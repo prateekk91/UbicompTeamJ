@@ -3,7 +3,6 @@ package com.example.marcel.myapplication;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -46,7 +45,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
 
-        Log.d("Prateek", "in on created");
         getWindow().requestFeature(WindowUtils.FEATURE_VOICE_COMMANDS);
 
         mView = buildView();
@@ -117,7 +115,6 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        Log.d("Prateek", "on create ");
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.activity_menu, menu);
         return super.onCreateOptionsMenu(menu);
@@ -128,7 +125,6 @@ public class MainActivity extends Activity {
      * */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Log.d("Prateek", "on options item selected");
         Intent intent  = new Intent(this, Exercise1Activity.class);
         intent.putExtra("ExerciseName", item.getTitle().toString());
         startActivity(intent);
